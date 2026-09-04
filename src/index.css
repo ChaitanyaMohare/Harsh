@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', 'Noto Sans Devanagari', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    color: #1e293b;
+    background-color: #f8fafc;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom styles for government-tech aesthetic */
+.gov-gradient-header {
+  background: linear-gradient(135deg, #071e3d 0%, #0b2545 50%, #133b5c 100%);
+}
+
+.gov-badge-india {
+  background: linear-gradient(90deg, #ff9933 0%, #ffffff 50%, #128807 100%);
+}
+
+.pulse-glow {
+  box-shadow: 0 0 25px rgba(242, 101, 34, 0.25);
+}
+
+.card-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -10px rgba(11, 37, 69, 0.12);
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 2.5s infinite ease-in-out;
+}
