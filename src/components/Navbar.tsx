@@ -62,11 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             <span className="font-semibold text-white tracking-wide">
-              {lang === 'hi' ? 'स्मार्ट इंडिया हैकथॉन २०२६ प्रोटोटाइप' : 'Smart India Hackathon Prototype'}
-            </span>
-            <span className="text-slate-400 hidden sm:inline">•</span>
-            <span className="text-slate-300 hidden sm:inline">
-              {lang === 'hi' ? 'भारतीय मानक ब्यूरो (BIS) मार्गदर्शन' : 'Bureau of Indian Standards Guidance Portal'}
+              {lang === 'hi' ? 'भारतीय मानक ब्यूरो (BIS) मार्गदर्शन पोर्टल' : 'Bureau of Indian Standards — Guidance Portal'}
             </span>
           </div>
 

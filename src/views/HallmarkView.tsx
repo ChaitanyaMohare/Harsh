@@ -249,7 +249,7 @@ export const HallmarkView: React.FC<HallmarkViewProps> = ({ lang }) => {
             <p>
               {lang === 'hi'
                 ? 'यह एक प्रोटोटाइप प्रदर्शन है। वास्तविक सत्यापन आधिकारिक BIS Care मोबाइल ऐप या manakonline पोर्टल से जुड़ता है।'
-                : 'This is a prototype demonstration for Smart India Hackathon. Actual verification in production connects directly to the official Bureau of Indian Standards (BIS) national hallmarking registry and the BIS Care Mobile App.'}
+                : 'Prototype demonstration. Actual verification in production connects directly to the official Bureau of Indian Standards (BIS) national hallmarking registry and the BIS Care Mobile App.'}
             </p>
           </div>
         </div>

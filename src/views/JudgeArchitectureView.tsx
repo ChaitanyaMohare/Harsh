@@ -88,7 +88,7 @@ export const JudgeArchitectureView: React.FC<JudgeArchitectureViewProps> = ({ la
         <div className="text-center max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-400/10 text-amber-400 border border-amber-400/30 text-xs font-bold uppercase tracking-wider mb-4">
             <Cpu className="w-4 h-4" />
-            <span>Smart India Hackathon 2026 • Technical Presentation Mode</span>
+            <span>Technical Architecture & System Design</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">

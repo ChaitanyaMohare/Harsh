@@ -104,7 +104,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       judgeMode: 'How SmartGuide Works (Judges)',
     },
     hero: {
-      badge: 'Smart India Hackathon Prototype • AI-Powered Standards Assistance',
+      badge: 'Bureau of Indian Standards • AI-Powered Standards Assistance',
       title: 'What do you want to know about your product?',
       subtitle: 'Ask about BIS standards, certification, testing, licensing, and product requirements in simple language.',
       searchPlaceholder: 'Example: Do I need BIS certification for my mixer grinder?',
@@ -171,7 +171,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       actionNewQuestion: 'Start New Question',
     },
     common: {
-      prototypeDemoNotice: 'SIH Prototype Demonstration — Built for Smart India Hackathon',
+      prototypeDemoNotice: 'Digital Public Guidance Platform • Bureau of Indian Standards',
       backToTop: 'Back to top',
       freeService: '100% Free Public Citizen & MSME Service',
       msmeFriendly: 'Special MSME & Small Business Friendly Guidance',
@@ -192,7 +192,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       judgeMode: 'स्मार्टगाइड कैसे काम करता है (जज मोड)',
     },
     hero: {
-      badge: 'स्मार्ट इंडिया हैकथॉन प्रोटोटाइप • एआई-आधारित मानक सहायता',
+      badge: 'भारतीय मानक ब्यूरो • एआई-आधारित मानक सहायता',
       title: 'आप अपने उत्पाद के बारे में क्या जानना चाहते हैं?',
       subtitle: 'BIS मानकों, प्रमाणीकरण, लैब परीक्षण, लाइसेंस और उत्पाद नियमों के बारे में सरल भाषा में पूछें।',
       searchPlaceholder: 'उदाहरण: क्या मुझे मिक्सर ग्राइंडर के लिए BIS सर्टिफिकेशन चाहिए?',
@@ -259,7 +259,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       actionNewQuestion: 'नया सवाल पूछें',
     },
     common: {
-      prototypeDemoNotice: 'SIH प्रोटोटाइप प्रदर्शन — स्मार्ट इंडिया हैकथॉन के लिए निर्मित',
+      prototypeDemoNotice: 'डिजिटल नागरिक मार्गदर्शन प्लेटफॉर्म • भारतीय मानक ब्यूरो',
       backToTop: 'ऊपर जाएं',
       freeService: '100% निःशुल्क नागरिक एवं एमएसएमई सेवा',
       msmeFriendly: 'छोटे उद्योगों एवं व्यापारियों के लिए सुगम मार्गदर्शन',

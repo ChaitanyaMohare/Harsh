@@ -209,7 +209,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, lang }) => {
         {/* Bottom copyright and SIH banner */}
         <div className="mt-12 pt-6 border-t border-slate-800 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p>
-            © {new Date().getFullYear()} BIS SmartGuide Prototype • Smart India Hackathon 2026.
+            © {new Date().getFullYear()} BIS SmartGuide • Bureau of Indian Standards (Govt. of India).
           </p>
           <p className="flex items-center gap-1 text-slate-300">
             <span>Built with</span>
