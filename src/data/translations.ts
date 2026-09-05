@@ -11,7 +11,6 @@ export interface TranslationDictionary {
     findLab: string;
     askAssistant: string;
     hallmarkCheck: string;
-    judgeMode: string;
   };
   hero: {
     badge: string;
@@ -101,7 +100,6 @@ export const translations: Record<Language, TranslationDictionary> = {
       findLab: 'Find Laboratory',
       askAssistant: 'Ask Assistant',
       hallmarkCheck: 'Verify Hallmark',
-      judgeMode: 'How BISSA Works (Judges)',
     },
     hero: {
       badge: 'Bureau of Indian Standards • AI-Powered Standards Assistance',
@@ -189,7 +187,6 @@ export const translations: Record<Language, TranslationDictionary> = {
       findLab: 'प्रयोगशाला खोजें',
       askAssistant: 'सहायक से पूछें',
       hallmarkCheck: 'हॉलमार्क जांचें',
-      judgeMode: 'BISSA कैसे काम करता है (जज मोड)',
     },
     hero: {
       badge: 'भारतीय मानक ब्यूरो • एआई-आधारित मानक सहायता',

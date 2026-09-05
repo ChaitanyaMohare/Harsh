@@ -7,7 +7,6 @@ import { StandardsView } from './views/StandardsView';
 import { CertificationGuideView } from './views/CertificationGuideView';
 import { LabFinderView } from './views/LabFinderView';
 import { HallmarkView } from './views/HallmarkView';
-import { JudgeArchitectureView } from './views/JudgeArchitectureView';
 import { StandardModal } from './components/StandardModal';
 import { LabModal } from './components/LabModal';
 import { Language } from './data/translations';
@@ -93,10 +92,6 @@ export function App() {
 
         {currentView === 'hallmark' && (
           <HallmarkView lang={lang} />
-        )}
-
-        {currentView === 'judgeMode' && (
-          <JudgeArchitectureView lang={lang} />
         )}
       </main>
 
