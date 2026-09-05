@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Phone, ExternalLink, Cpu, Heart, CheckCircle2 } from 'lucide-react';
+import { Shield, Phone, ExternalLink, Heart, CheckCircle2 } from 'lucide-react';
 import { Language, translations } from '../data/translations';
 import { PageView } from './Navbar';
 
@@ -26,17 +26,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, lang }) => {
                 : 'Avail flat 50% government concession on BIS application & marking fees for Udyam MSMEs.'}
             </span>
           </div>
-
-          <button
-            onClick={() => {
-              onNavigate('judgeMode');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-blue-900/90 text-amber-300 hover:bg-blue-800 border border-amber-400/40 transition shrink-0"
-          >
-            <Cpu className="w-3.5 h-3.5" />
-            <span>{lang === 'hi' ? 'हैकथॉन जज: तकनीकी आर्किटेक्चर देखें' : 'Judges: View AI RAG Architecture'}</span>
-          </button>
         </div>
       </div>
 
@@ -136,17 +125,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, lang }) => {
                   className="hover:text-white transition text-slate-300"
                 >
                   {t.nav.hallmarkCheck}
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    onNavigate('judgeMode');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="hover:text-amber-400 font-semibold text-amber-300 transition"
-                >
-                  {t.nav.judgeMode}
                 </button>
               </li>
             </ul>

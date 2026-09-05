@@ -10,7 +10,6 @@ import {
   FlaskConical,
   MessageSquareText,
   ShieldCheck,
-  Cpu,
 } from 'lucide-react';
 import { Language, translations } from '../data/translations';
 
@@ -20,8 +19,7 @@ export type PageView =
   | 'certGuide'
   | 'findLab'
   | 'assistant'
-  | 'hallmark'
-  | 'judgeMode';
+  | 'hallmark';
 
 interface NavbarProps {
   currentView: PageView;
@@ -67,19 +65,6 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
 
           <div className="flex items-center gap-3">
-            {/* Judge Architecture Shortcut */}
-            <button
-              onClick={() => handleNavClick('judgeMode')}
-              className={`flex items-center gap-1.5 px-2.5 py-0.5 rounded text-[11px] font-bold transition ${
-                currentView === 'judgeMode'
-                  ? 'bg-amber-400 text-slate-950 shadow-sm'
-                  : 'bg-blue-900/80 hover:bg-blue-800 text-amber-300 border border-amber-400/40'
-              }`}
-            >
-              <Cpu className="w-3 h-3" />
-              <span>{lang === 'hi' ? 'जज आर्किटेक्चर मोड' : 'Judge Tech Mode'}</span>
-            </button>
-
             {/* Language Switcher */}
             <div className="flex items-center bg-slate-800/90 rounded-md p-0.5 border border-slate-700">
               <Languages className="w-3 h-3 text-slate-400 ml-1.5 mr-0.5" />
@@ -219,14 +204,6 @@ export const Navbar: React.FC<NavbarProps> = ({
           })}
 
           <div className="pt-3 border-t border-slate-100 flex flex-col gap-2">
-            <button
-              onClick={() => handleNavClick('judgeMode')}
-              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold bg-amber-50 text-amber-900 border border-amber-300"
-            >
-              <Cpu className="w-4 h-4 text-amber-700" />
-              <span>{t.nav.judgeMode}</span>
-            </button>
-
             <button
               onClick={() => handleNavClick('assistant')}
               className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-bold text-white bg-[#0b2545]"
