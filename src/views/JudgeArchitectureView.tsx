@@ -92,7 +92,7 @@ export const JudgeArchitectureView: React.FC<JudgeArchitectureViewProps> = ({ la
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            How BIS SmartGuide Works
+            How BISSA Works
           </h1>
 
           <p className="text-sm sm:text-base text-slate-400 mt-3 leading-relaxed">
@@ -251,7 +251,7 @@ export const JudgeArchitectureView: React.FC<JudgeArchitectureViewProps> = ({ la
                 Zero-Hallucination Architecture for Government Compliance
               </h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">
-                In legal and industrial compliance, an AI that hallucinates standard codes or certification rules could cause small businesses severe financial loss or factory closure. Here is how BIS SmartGuide eliminates hallucinations:
+                In legal and industrial compliance, an AI that hallucinates standard codes or certification rules could cause small businesses severe financial loss or factory closure. Here is how BISSA eliminates hallucinations:
               </p>
             </div>
 
@@ -294,7 +294,7 @@ export const JudgeArchitectureView: React.FC<JudgeArchitectureViewProps> = ({ la
                 Designed for Rural Artisans, Small Fabricators & Non-Tech Users
               </h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">
-                Most Indian manufacturers are micro-enterprises with informal workers. Enterprise dashboards with bureaucratic jargon create friction. BIS SmartGuide removes all barriers:
+                Most Indian manufacturers are micro-enterprises with informal workers. Enterprise dashboards with bureaucratic jargon create friction. BISSA removes all barriers:
               </p>
             </div>
 
@@ -348,7 +348,7 @@ export const JudgeArchitectureView: React.FC<JudgeArchitectureViewProps> = ({ la
                 # SYSTEM PROMPT
               </div>
               <div>
-                You are BIS SmartGuide, an official AI guidance assistant for the Bureau of Indian Standards (Govt. of India).
+                You are BISSA, an official AI guidance assistant for the Bureau of Indian Standards (Govt. of India).
                 Your goal is to explain Indian Standards, ISI mark requirements, and testing procedures to non-technical citizens and small business owners in 6th-grade language.
               </div>
               <div className="text-amber-400 font-bold pt-2">

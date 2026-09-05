@@ -61,8 +61,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, lang }) => {
 
             <p className="text-sm text-slate-300 leading-relaxed max-w-lg">
               {lang === 'hi'
-                ? 'BIS स्मार्टगाइड एक एआई-सक्षम मार्गदर्शक प्लेटफॉर्म है जो भारतीय निर्माताओं, छोटे व्यवसायों, छात्रों और नागरिकों को भारतीय मानकों, ISI मार्क और हॉलमार्किंग को सरल भाषा में समझने में मदद करता है।'
-                : 'BIS SmartGuide is an AI-powered guidance platform helping Indian manufacturers, MSMEs, artisans, and consumers understand Indian Standards, ISI mark licensing, and testing requirements in plain, accessible language.'}
+                ? 'BISSA एक एआई-सक्षम मार्गदर्शक प्लेटफॉर्म है जो भारतीय निर्माताओं, छोटे व्यवसायों, छात्रों और नागरिकों को भारतीय मानकों, ISI मार्क और हॉलमार्किंग को सरल भाषा में समझने में मदद करता है।'
+                : 'BISSA is an AI-powered guidance platform helping Indian manufacturers, MSMEs, artisans, and consumers understand Indian Standards, ISI mark licensing, and testing requirements in plain, accessible language.'}
             </p>
 
             <div className="flex flex-wrap items-center gap-3 pt-2 text-xs">
@@ -209,7 +209,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, lang }) => {
         {/* Bottom copyright and SIH banner */}
         <div className="mt-12 pt-6 border-t border-slate-800 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p>
-            © {new Date().getFullYear()} BIS SmartGuide • Bureau of Indian Standards (Govt. of India).
+            © {new Date().getFullYear()} BISSA • Bureau of Indian Standards (Govt. of India).
           </p>
           <p className="flex items-center gap-1 text-slate-300">
             <span>Built with</span>

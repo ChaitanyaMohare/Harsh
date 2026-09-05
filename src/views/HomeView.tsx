@@ -252,7 +252,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             </div>
           </div>
 
-          {/* Card 4: Ask SmartGuide */}
+          {/* Card 4: Ask BISSA */}
           <div
             onClick={() => onNavigate('assistant')}
             className="group bg-gradient-to-br from-blue-900 to-[#0b2545] rounded-2xl p-6 border border-blue-900 shadow-md hover:shadow-xl card-hover cursor-pointer flex flex-col justify-between text-white"

@@ -238,14 +238,14 @@ export const CertificationGuideView: React.FC<CertificationGuideViewProps> = ({
           <p className="text-sm sm:text-base text-slate-200 max-w-xl mx-auto">
             {lang === 'hi'
               ? 'हमारे एआई सहायक से अपने उत्पाद का नाम बताएं और तुरंत व्यक्तिगत चेकलिस्ट प्राप्त करें।'
-              : 'Ask our AI SmartGuide assistant with your product name to get an instant tailored roadmap.'}
+              : 'Ask our AI BISSA assistant with your product name to get an instant tailored roadmap.'}
           </p>
           <button
             onClick={() => onNavigateToAssistant('Electric Mixer Grinder')}
             className="px-7 py-3.5 bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-sm sm:text-base rounded-xl shadow-lg transition inline-flex items-center gap-2"
           >
             <Sparkles className="w-4 h-4 text-slate-950" />
-            <span>{lang === 'hi' ? 'स्मार्टगाइड से पूछें' : 'Ask SmartGuide'}</span>
+            <span>{lang === 'hi' ? 'BISSA से पूछें' : 'Ask BISSA'}</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>
